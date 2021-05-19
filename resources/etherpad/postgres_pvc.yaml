@@ -6,7 +6,7 @@ metadata:
   name: postgresql
 spec:
   accessModes:
-  - ReadWritesOnce
+  - ReadWriteOnce
   resources:
     requests:
       storage: 2Gi
